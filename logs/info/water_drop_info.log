@@ -227,3 +227,54 @@
 2015-12-10 10:52:33,664 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/companyUpcs/{id}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.upsmart.water.drop.response.BaseMessage com.upsmart.water.drop.controller.CompanyUpcsController.deleteCompanyUpcs(java.lang.Integer)
 2015-12-10 10:52:33,664 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped "{[/companyUpcs/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.upsmart.water.drop.response.BaseMessage com.upsmart.water.drop.controller.CompanyUpcsController.queryUpcsByComId(java.lang.Integer)
 2015-12-10 10:52:34,021 INFO [main] org.springframework.web.servlet.DispatcherServlet : FrameworkServlet 'spring-mvc': initialization completed in 616 ms
+2015-12-10 11:19:51,713 INFO [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization started
+2015-12-10 11:19:51,795 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Refreshing Root WebApplicationContext: startup date [Thu Dec 10 11:19:51 CST 2015]; root of context hierarchy
+2015-12-10 11:19:51,830 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-12-10 11:19:52,014 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [config/jpa.xml]
+2015-12-10 11:19:52,212 INFO [main] org.springframework.context.support.PropertySourcesPlaceholderConfigurer : Loading properties file from class path resource [properties/dev.properties]
+2015-12-10 11:19:52,310 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'dataSource' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:19:52,320 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#365b4849' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:19:52,337 INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-12-10 11:19:52,448 INFO [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-12-10 11:19:52,453 INFO [main]                 org.hibernate.Version : HHH000412: Hibernate Core {4.1.7.Final}
+2015-12-10 11:19:52,454 INFO [main]         org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2015-12-10 11:19:52,456 INFO [main]         org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist
+2015-12-10 11:19:52,725 INFO [main] org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator : HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-12-10 11:23:29,781 INFO [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization started
+2015-12-10 11:23:29,864 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Refreshing Root WebApplicationContext: startup date [Thu Dec 10 11:23:29 CST 2015]; root of context hierarchy
+2015-12-10 11:23:29,901 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-12-10 11:23:30,091 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [config/jpa.xml]
+2015-12-10 11:23:30,292 INFO [main] org.springframework.context.support.PropertySourcesPlaceholderConfigurer : Loading properties file from class path resource [properties/dev.properties]
+2015-12-10 11:23:30,391 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'dataSource' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:23:30,401 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#22e6cc80' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:23:30,417 INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-12-10 11:23:30,530 INFO [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-12-10 11:23:30,535 INFO [main]                 org.hibernate.Version : HHH000412: Hibernate Core {4.1.7.Final}
+2015-12-10 11:23:30,536 INFO [main]         org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2015-12-10 11:23:30,538 INFO [main]         org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist
+2015-12-10 11:23:30,807 INFO [main] org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator : HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-12-10 11:26:08,453 INFO [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization started
+2015-12-10 11:26:08,534 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Refreshing Root WebApplicationContext: startup date [Thu Dec 10 11:26:08 CST 2015]; root of context hierarchy
+2015-12-10 11:26:08,569 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-12-10 11:26:08,746 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [config/jpa.xml]
+2015-12-10 11:26:08,937 INFO [main] org.springframework.context.support.PropertySourcesPlaceholderConfigurer : Loading properties file from class path resource [properties/dev.properties]
+2015-12-10 11:26:09,034 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'dataSource' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:26:09,044 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#365b4849' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:26:09,060 INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-12-10 11:26:09,172 INFO [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-12-10 11:26:09,176 INFO [main]                 org.hibernate.Version : HHH000412: Hibernate Core {4.1.7.Final}
+2015-12-10 11:26:09,178 INFO [main]         org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2015-12-10 11:26:09,179 INFO [main]         org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist
+2015-12-10 11:26:09,447 INFO [main] org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator : HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-12-10 11:27:27,341 INFO [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization started
+2015-12-10 11:27:27,418 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Refreshing Root WebApplicationContext: startup date [Thu Dec 10 11:27:27 CST 2015]; root of context hierarchy
+2015-12-10 11:27:27,452 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-12-10 11:27:27,629 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader : Loading XML bean definitions from class path resource [config/jpa.xml]
+2015-12-10 11:27:27,824 INFO [main] org.springframework.context.support.PropertySourcesPlaceholderConfigurer : Loading properties file from class path resource [properties/dev.properties]
+2015-12-10 11:27:27,925 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'dataSource' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:27:27,935 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext : Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#365b4849' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-12-10 11:27:27,951 INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-12-10 11:27:28,065 INFO [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-12-10 11:27:28,070 INFO [main]                 org.hibernate.Version : HHH000412: Hibernate Core {4.1.7.Final}
+2015-12-10 11:27:28,072 INFO [main]         org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2015-12-10 11:27:28,073 INFO [main]         org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist

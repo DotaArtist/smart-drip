@@ -31,10 +31,10 @@
 
     <bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/company/" />
-        <property name="viewNames" value="*" />
-        <property name="suffix" value=".jsp" />
-        <property name="order" value="1" />
+<!--         <property name="prefix" value="/company/" /> -->
+<!--         <property name="viewNames" value="*" /> -->
+<!--         <property name="suffix" value=".jsp" /> -->
+<!--         <property name="order" value="1" /> -->
     </bean>
     <bean id="multipartResolver"
         class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
