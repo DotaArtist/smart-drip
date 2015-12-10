@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.upsmart.water.drop.dto.CompanyUpcsDto;
 import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.CompanyUpcsService;
+import com.upsmart.water.drop.service.impl.CompanyUpcsService;
 
 
 /** 

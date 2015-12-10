@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.UpsmartDepService;
+import com.upsmart.water.drop.service.impl.UpsmartDepService;
 
 /**
  * @ClassName: UpsmartDepController

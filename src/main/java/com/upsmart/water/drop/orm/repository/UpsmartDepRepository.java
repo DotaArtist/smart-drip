@@ -1,8 +1,8 @@
-package com.upsmart.water.drop.repository;
+package com.upsmart.water.drop.orm.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.upsmart.water.drop.domain.UpsmartDep;
+import com.upsmart.water.drop.orm.domain.UpsmartDep;
 
 /** 
 * @ClassName: UpsmartDepRepository 

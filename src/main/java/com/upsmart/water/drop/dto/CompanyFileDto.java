@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.upsmart.water.drop.domain.CompanyFile;
+import com.upsmart.water.drop.orm.domain.CompanyFile;
 
 /** 
 * @ClassName: CompanyFileDto 

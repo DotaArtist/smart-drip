@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.service;
+package com.upsmart.water.drop.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.upsmart.water.drop.domain.UpsmartContacts;
-import com.upsmart.water.drop.domain.UpsmartDep;
 import com.upsmart.water.drop.dto.UpsmartContactsDto;
 import com.upsmart.water.drop.dto.UpsmartDepDto;
-import com.upsmart.water.drop.repository.UpsmartContactsRepository;
-import com.upsmart.water.drop.repository.UpsmartDepRepository;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.domain.UpsmartDep;
+import com.upsmart.water.drop.orm.repository.UpsmartContactsRepository;
+import com.upsmart.water.drop.orm.repository.UpsmartDepRepository;
 import com.upsmart.water.drop.response.BaseMessage;
 import com.upsmart.water.drop.response.MessageCode;
 

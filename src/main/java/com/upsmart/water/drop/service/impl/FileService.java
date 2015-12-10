@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.service;
+package com.upsmart.water.drop.service.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,9 +14,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.upsmart.water.drop.domain.CompanyFile;
 import com.upsmart.water.drop.dto.CompanyFileDto;
-import com.upsmart.water.drop.repository.CompanyFileRepository;
+import com.upsmart.water.drop.orm.domain.CompanyFile;
+import com.upsmart.water.drop.orm.repository.CompanyFileRepository;
 import com.upsmart.water.drop.response.BaseMessage;
 import com.upsmart.water.drop.response.MessageCode;
 

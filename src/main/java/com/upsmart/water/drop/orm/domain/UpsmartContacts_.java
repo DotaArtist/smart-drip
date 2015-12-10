@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.domain;
+package com.upsmart.water.drop.orm.domain;
 
 import java.util.Date;
 

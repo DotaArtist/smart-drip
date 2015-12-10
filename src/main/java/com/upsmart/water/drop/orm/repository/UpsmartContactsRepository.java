@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.repository;
+package com.upsmart.water.drop.orm.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.upsmart.water.drop.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
 
 /**
  * @ClassName: UpsmartContactsRepository

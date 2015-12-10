@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.service;
+package com.upsmart.water.drop.service.impl;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -16,16 +16,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.upsmart.water.drop.convert.Convert;
-import com.upsmart.water.drop.domain.CompanyUpcs;
-import com.upsmart.water.drop.domain.UpsmartContacts;
 import com.upsmart.water.drop.dto.UpsmartContactsDto;
 import com.upsmart.water.drop.dto.UpsmartContactsFilterDto;
 import com.upsmart.water.drop.dto.UpsmartDepDto;
-import com.upsmart.water.drop.repository.CompanyUpcsRepository;
-import com.upsmart.water.drop.repository.UpsmartContactsRepository;
+import com.upsmart.water.drop.orm.domain.CompanyUpcs;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.repository.CompanyUpcsRepository;
+import com.upsmart.water.drop.orm.repository.UpsmartContactsRepository;
 import com.upsmart.water.drop.response.BaseMessage;
 import com.upsmart.water.drop.response.MessageCode;
-import com.upsmart.water.drop.specification.UpsmartContactsSpecification;
+import com.upsmart.water.drop.service.specification.UpsmartContactsSpecification;
 
 /**
  * @ClassName: UpsmartContactService

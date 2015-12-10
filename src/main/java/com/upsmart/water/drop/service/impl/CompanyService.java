@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.service;
+package com.upsmart.water.drop.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,24 +15,24 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.upsmart.water.drop.convert.Convert;
-import com.upsmart.water.drop.domain.Company;
-import com.upsmart.water.drop.domain.CompanyContacts;
-import com.upsmart.water.drop.domain.CompanyFile;
-import com.upsmart.water.drop.domain.CompanyUpcs;
-import com.upsmart.water.drop.domain.UpsmartContacts;
 import com.upsmart.water.drop.dto.CompanyContactsDto;
 import com.upsmart.water.drop.dto.CompanyDetailDto;
 import com.upsmart.water.drop.dto.CompanyDto;
 import com.upsmart.water.drop.dto.CompanyFileDto;
 import com.upsmart.water.drop.dto.UpsmartContactsDto;
-import com.upsmart.water.drop.repository.CompanyContactsRepository;
-import com.upsmart.water.drop.repository.CompanyFileRepository;
-import com.upsmart.water.drop.repository.CompanyRepository;
-import com.upsmart.water.drop.repository.CompanyUpcsRepository;
-import com.upsmart.water.drop.repository.UpsmartContactsRepository;
+import com.upsmart.water.drop.orm.domain.Company;
+import com.upsmart.water.drop.orm.domain.CompanyContacts;
+import com.upsmart.water.drop.orm.domain.CompanyFile;
+import com.upsmart.water.drop.orm.domain.CompanyUpcs;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.repository.CompanyContactsRepository;
+import com.upsmart.water.drop.orm.repository.CompanyFileRepository;
+import com.upsmart.water.drop.orm.repository.CompanyRepository;
+import com.upsmart.water.drop.orm.repository.CompanyUpcsRepository;
+import com.upsmart.water.drop.orm.repository.UpsmartContactsRepository;
 import com.upsmart.water.drop.response.BaseMessage;
 import com.upsmart.water.drop.response.MessageCode;
-import com.upsmart.water.drop.specification.CompanySpecification;
+import com.upsmart.water.drop.service.specification.CompanySpecification;
 
 /**
  * @ClassName: CompanyService

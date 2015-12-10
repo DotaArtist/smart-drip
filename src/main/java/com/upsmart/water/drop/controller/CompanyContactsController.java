@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.upsmart.water.drop.dto.CompanyContactsDto;
 import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.CompanyContactsService;
+import com.upsmart.water.drop.service.impl.CompanyContactsService;
 
 /**
  * @ClassName: CompanyContactsController

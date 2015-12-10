@@ -1,13 +1,13 @@
 package com.upsmart.water.drop.convert;
 
-import com.upsmart.water.drop.domain.Company;
-import com.upsmart.water.drop.domain.CompanyContacts;
-import com.upsmart.water.drop.domain.UpsmartContacts;
-import com.upsmart.water.drop.domain.UpsmartDep;
 import com.upsmart.water.drop.dto.CompanyContactsDto;
 import com.upsmart.water.drop.dto.CompanyDto;
 import com.upsmart.water.drop.dto.UpsmartContactsDto;
 import com.upsmart.water.drop.dto.UpsmartDepDto;
+import com.upsmart.water.drop.orm.domain.Company;
+import com.upsmart.water.drop.orm.domain.CompanyContacts;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.domain.UpsmartDep;
 
 /**
  * @ClassName: Convert

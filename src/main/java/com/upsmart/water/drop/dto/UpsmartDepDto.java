@@ -3,7 +3,7 @@ package com.upsmart.water.drop.dto;
 import java.io.Serializable;
 import java.util.List;
 
-import com.upsmart.water.drop.domain.UpsmartDep;
+import com.upsmart.water.drop.orm.domain.UpsmartDep;
 
 /**
  * @ClassName: UpsmartDepDto

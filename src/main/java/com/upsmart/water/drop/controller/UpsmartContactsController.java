@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.upsmart.water.drop.dto.UpsmartContactsDto;
 import com.upsmart.water.drop.dto.UpsmartContactsFilterDto;
 import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.UpsmartContactsService;
+import com.upsmart.water.drop.service.impl.UpsmartContactsService;
 
 /** 
 * @ClassName: UpsmartContactsController 

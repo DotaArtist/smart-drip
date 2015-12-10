@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.upsmart.water.drop.domain.Company;
+import com.upsmart.water.drop.orm.domain.Company;
 
 /**
  * @ClassName: CompanyDto

@@ -1,4 +1,6 @@
-package com.upsmart.water.drop.domain;
+package com.upsmart.water.drop.orm.domain;
+
+import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -6,33 +8,34 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 /** 
-* @ClassName: CompanyUpcs 
+* @ClassName: CompanyFile 
 * @Description: TODO(这里用一句话描述这个类的作用) 
 * @author lihx 
-* @date 2015年11月24日 下午2:27:03 
+* @date 2015年11月24日 下午2:26:55 
 */
 @Entity
-@Table(name = "company_upcs")
-public class CompanyUpcs implements Serializable {
-    private static final long serialVersionUID = -468625033272208354L;
+@Table(name = "company_file")
+public class CompanyFile implements Serializable {
+    private static final long serialVersionUID = -3354195820149117851L;
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
     private Integer id;
-    @Column(name = "com_id", nullable = false)
-    private Integer comId;
-    @Column(name = "upc_id", nullable = false)
-    private Integer upcId;
+    @Column(name = "name", nullable = false)
+    private String name;
+    @Column(name = "path", nullable = true)
+    private String path;
+    @Column(name = "type", nullable = false)
+    private Integer type;
     @Column(name = "created_at", nullable = false)
     private Date createdAt;
     @Column(name = "updated_at", nullable = false)
     private Date updatedAt;
-    @Column(name = "valid", columnDefinition = "tinyint", length = 1)
+    @Column(name = "valid",columnDefinition = "tinyint", length = 1)
     private boolean valid;
 
     public Integer getId() {
@@ -43,20 +46,28 @@ public class CompanyUpcs implements Serializable {
         this.id = id;
     }
 
-    public Integer getComId() {
-        return comId;
+    public String getName() {
+        return name;
     }
 
-    public void setComId(Integer comId) {
-        this.comId = comId;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Integer getUpcId() {
-        return upcId;
+    public String getPath() {
+        return path;
     }
 
-    public void setUpcId(Integer upcId) {
-        this.upcId = upcId;
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
     }
 
     public Date getCreatedAt() {

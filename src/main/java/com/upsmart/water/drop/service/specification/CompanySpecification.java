@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.specification;
+package com.upsmart.water.drop.service.specification;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,8 @@ import javax.persistence.criteria.Root;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.jpa.domain.Specification;
 
-import com.upsmart.water.drop.domain.Company;
-import com.upsmart.water.drop.domain.Company_;
+import com.upsmart.water.drop.orm.domain.Company;
+import com.upsmart.water.drop.orm.domain.Company_;
 
 /**
  * @ClassName: CompanySpecification

@@ -1,9 +1,9 @@
-package com.upsmart.water.drop.repository;
+package com.upsmart.water.drop.orm.repository;
 
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.upsmart.water.drop.domain.Company;
+import com.upsmart.water.drop.orm.domain.Company;
 
 /** 
 * @ClassName: CompanyRepository 

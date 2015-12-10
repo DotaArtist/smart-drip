@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.FileService;
+import com.upsmart.water.drop.service.impl.FileService;
 
 
 

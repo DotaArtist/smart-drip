@@ -1,11 +1,11 @@
-package com.upsmart.water.drop.repository;
+package com.upsmart.water.drop.orm.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import com.upsmart.water.drop.domain.CompanyFile;
+import com.upsmart.water.drop.orm.domain.CompanyFile;
 
 /**
  * @ClassName: CompanyFileRepository

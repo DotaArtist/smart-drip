@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.service;
+package com.upsmart.water.drop.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.upsmart.water.drop.convert.Convert;
-import com.upsmart.water.drop.domain.CompanyContacts;
 import com.upsmart.water.drop.dto.CompanyContactsDto;
-import com.upsmart.water.drop.repository.CompanyContactsRepository;
+import com.upsmart.water.drop.orm.domain.CompanyContacts;
+import com.upsmart.water.drop.orm.repository.CompanyContactsRepository;
 import com.upsmart.water.drop.response.BaseMessage;
 import com.upsmart.water.drop.response.MessageCode;
 

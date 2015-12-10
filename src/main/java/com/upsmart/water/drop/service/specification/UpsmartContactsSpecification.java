@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.specification;
+package com.upsmart.water.drop.service.specification;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,10 +12,10 @@ import javax.persistence.criteria.Root;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.jpa.domain.Specification;
 
-import com.upsmart.water.drop.domain.UpsmartContacts;
-import com.upsmart.water.drop.domain.UpsmartContacts_;
-import com.upsmart.water.drop.domain.UpsmartDep;
 import com.upsmart.water.drop.dto.UpsmartContactsFilterDto;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts;
+import com.upsmart.water.drop.orm.domain.UpsmartContacts_;
+import com.upsmart.water.drop.orm.domain.UpsmartDep;
 
 /** 
 * @ClassName: UpsmartContactsSpecification 
