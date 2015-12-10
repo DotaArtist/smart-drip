@@ -29,11 +29,6 @@ public class IndexController {
     @Value("${admin.password}")
     private String adminPassword;
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String getHomePage() {
-        return "index";
-    }
-
     /**
      * 用户登录
      * 
