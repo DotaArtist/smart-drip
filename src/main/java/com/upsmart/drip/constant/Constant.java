@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.constant;
+package com.upsmart.drip.constant;
 
 /**
  * Constant

@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.orm.domain;
+package com.upsmart.drip.orm.domain;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
@@ -12,10 +12,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @ClassName: Company
- * @Description: 公司信息表
- * @author lihx
- * @date 2015年11月24日 上午10:15:54
+ * 公司信息表
+ *
+ * @author hekui
+ * @since 2015年12月10日 下午4:16:21
  */
 @Entity
 @Table(name = "company")
@@ -25,34 +25,51 @@ public class Company implements Serializable {
     @GeneratedValue(strategy = IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
     private Integer id;
+    // 名称
     @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "abbreviation")
-    private String abbreviation;
+    // 简称
+    @Column(name = "abb")
+    private String abb;
+    // 城市
     @Column(name = "city")
     private String city;
+    // 商务
     @Column(name = "commerce")
     private String commerce;
+    // 行业
     @Column(name = "trade")
     private String trade;
+    // 公司网址
     @Column(name = "url")
     private String url;
-    @Column(name = "contract", columnDefinition = "tinyint", length = 1)
+    // 联系电话
+    @Column(name = "telephone")
+    private String telephone;
+    // 联系邮箱
+    @Column(name = "mail")
+    private String mail;
+    // 是否签约
+    @Column(name = "contract", columnDefinition = "tinyint")
     private boolean contract;
+    // 服务内容
     @Column(name = "service_content")
     private String serviceContent;
-    @Column(name = "bus_id", nullable = false)
-    private Integer busId = 0;
-    @Column(name = "org_id", nullable = false)
-    private Integer orgId = 0;
-    @Column(name = "tax_id", nullable = false)
-    private Integer taxId = 0;
+    // 联系人
+    @Column(name = "contact_name")
+    private String contactName;
+    // 联系电话
+    @Column(name = "contact_moblie")
+    private String contactMoblie;
+    // 创建时间
     @Column(name = "created_at", nullable = false)
     private Date createdAt;
+    // 更新时间
     @Column(name = "updated_at", nullable = false)
     private Date updatedAt;
-    @Column(name = "valid", columnDefinition = "tinyint", length = 1)
-    private boolean valid;
+    // 状态
+    @Column(name = "status", columnDefinition = "enum")
+    private String status;
 
     public Integer getId() {
         return id;
@@ -70,12 +87,12 @@ public class Company implements Serializable {
         this.name = name;
     }
 
-    public String getAbbreviation() {
-        return abbreviation;
+    public String getAbb() {
+        return abb;
     }
 
-    public void setAbbreviation(String abbreviation) {
-        this.abbreviation = abbreviation;
+    public void setAbb(String abb) {
+        this.abb = abb;
     }
 
     public String getCity() {
@@ -110,13 +127,29 @@ public class Company implements Serializable {
         this.url = url;
     }
 
-    public boolean isContract() {
-        return contract;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setContract(boolean contract) {
-        this.contract = contract;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+//    public boolean isContract() {
+//        return contract;
+//    }
+//
+//    public void setContract(boolean contract) {
+//        this.contract = contract;
+//    }
 
     public String getServiceContent() {
         return serviceContent;
@@ -126,28 +159,20 @@ public class Company implements Serializable {
         this.serviceContent = serviceContent;
     }
 
-    public Integer getBusId() {
-        return busId;
+    public String getContactName() {
+        return contactName;
     }
 
-    public void setBusId(Integer busId) {
-        this.busId = busId;
+    public void setContactName(String contactName) {
+        this.contactName = contactName;
     }
 
-    public Integer getOrgId() {
-        return orgId;
+    public String getContactMoblie() {
+        return contactMoblie;
     }
 
-    public void setOrgId(Integer orgId) {
-        this.orgId = orgId;
-    }
-
-    public Integer getTaxId() {
-        return taxId;
-    }
-
-    public void setTaxId(Integer taxId) {
-        this.taxId = taxId;
+    public void setContactMoblie(String contactMoblie) {
+        this.contactMoblie = contactMoblie;
     }
 
     public Date getCreatedAt() {
@@ -166,12 +191,12 @@ public class Company implements Serializable {
         this.updatedAt = updatedAt;
     }
 
-    public boolean isValid() {
-        return valid;
+    public String getStatus() {
+        return status;
     }
 
-    public void setValid(boolean valid) {
-        this.valid = valid;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }

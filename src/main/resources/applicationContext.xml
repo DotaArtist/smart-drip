@@ -9,7 +9,7 @@
 
     <context:property-placeholder location="classpath:properties/dev.properties" />
 
-    <context:component-scan base-package="com.upsmart.water.drop">
+    <context:component-scan base-package="com.upsmart.drip">
         <context:exclude-filter type="annotation"
             expression="org.springframework.stereotype.Controller" />
     </context:component-scan>

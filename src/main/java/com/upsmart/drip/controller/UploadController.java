@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.controller;
+package com.upsmart.drip.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,17 +7,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.service.impl.FileService;
+import com.upsmart.drip.response.BaseMessage;
+import com.upsmart.drip.service.impl.FileService;
 
-
-
-/** 
-* @ClassName: UploadController 
-* @Description:文件上传Controller
-* @author lihx 
-* @date 2015年11月24日 下午8:56:40 
-*/
+/**
+ * 文件上传
+ *
+ * @author hekui
+ * @since 2015年12月10日 下午5:06:37
+ */
 @Controller
 public class UploadController {
     @Autowired

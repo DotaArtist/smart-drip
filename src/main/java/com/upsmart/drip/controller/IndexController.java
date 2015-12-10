@@ -1,4 +1,4 @@
-package com.upsmart.water.drop.controller;
+package com.upsmart.drip.controller;
 
 import java.util.Map;
 
@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.upsmart.water.drop.response.BaseMessage;
-import com.upsmart.water.drop.response.MessageCode;
+import com.upsmart.drip.response.BaseMessage;
+import com.upsmart.drip.response.MessageCode;
 
 /**
- * @ClassName: IndexController
- * @Description:
- * @author lihx
- * @date 2015年11月24日 下午2:27:56
+ * 
+ *
+ * @author hekui
+ * @since 2015年12月10日 下午5:06:54
  */
 @Controller
 @RequestMapping("/")
