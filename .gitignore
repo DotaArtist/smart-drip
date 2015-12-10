@@ -14,4 +14,4 @@ dependency-reduced-pom.xml
 *.iml
 /build/
 .gradle/
-logs/
+/logs/
