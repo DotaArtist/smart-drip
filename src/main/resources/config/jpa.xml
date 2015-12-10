@@ -32,7 +32,7 @@
             <bean
                 class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
         </property>
-        <property name="packagesToScan" value="com.upsmart.water.drop.domain" />
+        <property name="packagesToScan" value="com.upsmart.water.drop.orm.domain" />
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
@@ -51,7 +51,7 @@
 
     <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
 
-    <jpa:repositories base-package="com.upsmart.water.drop.repository"
+    <jpa:repositories base-package="com.upsmart.water.drop.orm.repository"
     entity-manager-factory-ref="entityManagerFactory"
     transaction-manager-ref="transactionManager" />
 
